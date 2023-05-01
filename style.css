@@ -30,6 +30,7 @@ body{
     text-decoration: none;
 }
 .spanzuratoare{
+	display: flex;
     margin: auto;
     width: max-content;
 }
@@ -49,8 +50,7 @@ body{
     width: 15px;
 }
 .imageHead{
-    height: 90%;
-    
+    height: 90%; 
 }
 .imageNeck{
     height: 100%;
@@ -60,19 +60,6 @@ body{
     height: 50%;
     text-align: center;
 }
-.hands{
-    height: 40%;
-    display: flex;
-    width: 100%;
-    margin-top: -24px;
-    margin-left: 10.5px;
-}
-.body{
-    height: 70%;
-}
-.legs{
-    margin-top: -3.3rem;
-}
 .line1Div1{
     margin-top: -8px;
     margin-right: -6px;
@@ -81,27 +68,12 @@ body{
     margin-left: -7rem;
     margin-top: -8px;
 }
-.line1Div4{
-    margin-left: -1.8rem;
-}
+
 .line2Div1{
     margin-right: -6px;
 }
-.line2Div4{
-    display: flex;
-    flex-direction: column;
-    margin-left: -10.8rem;
-    margin-top: -16px;
-}
 .line3Div1{
     margin-right: -6px;
-}
-.line3Div4{
-    margin-left: -7.5rem;
-    margin-top: -5rem;
-}
-.line3Div4>img{
-    width: 6.4px;
 }
 .line4Div1{
     margin-right: -6px;
@@ -109,11 +81,6 @@ body{
 }
 .line4Div3{
     margin-top: -10px;
-}
-
-.line4Div4{
-    margin-top: -4rem;
-    margin-left: -10.8rem;
 }
 .fundament{
     width: 120%;
@@ -129,8 +96,9 @@ body{
     display: flex;
     align-items: center;
     gap: 1rem;
-    margin-top: -7rem;
-    margin-left: 1rem;
+	width: max-content;
+	margin: auto;
+	margin-top: -6rem;
 }
 .conuterLifes>img{
     width: 1rem;
@@ -153,14 +121,21 @@ body{
     width: max-content;
     margin: auto;
 }
-.keyLine1> button, .keyLine2> button, .keyLine3> button{
+.btnKeyboard{
     color: white;
     background: green;
     padding: 10px;
     border: none;
     border-radius: 3px;
 }
-.keyLine1>button:disabled{
-    background: rgb(207, 200, 200);
-    color: black;
+.disable {
+	color: black;
+	background: #cfcfcf;
+}
+.letterStyle {
+	font-size: 1.5rem;
+	background: #e4e4e4;
+	width: 2rem;
+	text-align: center;
+	margin: 0 0 1rem 0;
 }

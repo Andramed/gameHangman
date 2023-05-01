@@ -1,0 +1,56 @@
+
+.man{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0;
+	width: fit-content;
+	margin-left: -10rem;
+}
+.sizeDiv {
+	width: 2.5rem;
+	height: 2.5rem;
+}
+.sizeDivBig {
+	width: 5rem;
+	height: 5rem;
+}
+.sizeImgHoriozontal{
+	width: 100%;
+}
+.sizeImgVertical {
+	height: 100%;
+}
+.heightMin {
+	height: 50%;
+}
+.widthMin {
+	width: 50%;
+}
+
+.headContainer {
+	text-align: center;
+	margin-bottom: -20px;
+	z-index: 2;
+}
+.thread{
+	margin-bottom: -10px;
+}
+.neck {
+	text-align: center;
+	margin-bottom: -4px;
+}
+.hands {
+	display: flex;
+	height: 2.5rem;
+	margin-bottom: -4rem;
+}
+.legs{
+	display: flex;
+	height: 2.5rem;
+}
+.body{
+	text-align: center;
+	z-index: -1;
+	margin-bottom: -0.3rem;
+}

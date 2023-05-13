@@ -110,20 +110,41 @@ body{
     width: max-content;
     margin: auto;
 }
-.keyboard{
+.newKeyboard{
     display: flex;
     gap: 0.5rem;
     flex-direction: column;
     width: max-content;
     margin: auto;
 }
-.keyLine3{
+.keyboardLine2, .keyboardLine1, .keyboardLine0 {
+	display: flex;
+	gap: 10px;
+	width: fit-content;
+	margin: auto;
+}
+.keyboardLine2{
     width: max-content;
     margin: auto;
 }
 .btnKeyboard{
+	width: 4rem;
+	height: 4rem;
+	font-size: 1.5rem;
+	text-align: center;
     color: white;
     background: green;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+}
+.btnKeyboardDisable{
+	width: 4rem;
+	height: 4rem;
+	font-size: 1.5rem;
+	text-align: center;
+    color: rgb(48, 48, 48);
+    background: rgb(216, 249, 216);
     padding: 10px;
     border: none;
     border-radius: 3px;
@@ -142,3 +163,18 @@ body{
 .hidden {
 	display: none;
 }
+.btn-container {
+	justify-content: space-around;
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	width: 100%;
+}
+.btns > button {
+	border: none;
+	color: white;
+	background: green;
+	width: 10rem;
+	height: 1.5rem;	
+}
+
